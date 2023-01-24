@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
 </head>
+
 <body>
     <!--LISTA DESORDENADA-->
     <ul>
@@ -29,5 +38,37 @@
             </ol>
         </li>
     </ol>
+
+    <!--tablas-->
+    <table style="width: 500px;">
+
+        <thead> <!--nos sirve para que el navegaodr sepa que son titulos-->
+            <tr> <!--fila dentro de nuestra tabla-->
+                <th>PRECIO</th><!--titulo de cabezera-->
+                <th>PRODUCTO</th>
+
+            </tr>
+        </thead>
+
+       <tbody><!--nos sirve para que el navegador sepa que esto es el curpo-->
+        <TR>
+            <td>GRATIS</td><!--DEFINIR ELEMENTOS ESTANDARES DENTRO DE LAS CELDAS-->
+            <td>HOLA BEAST</td>
+        </TR>
+
+        <TR>
+            <td>20</td><!--DEFINIR ELEMENTOS ESTANDARES DENTRO DE LAS CELDAS-->
+            <td>SABRAS</td>
+        </TR>
+       </tbody>
+
+       <tfoot>
+            <td>TOTAL: 20</td>
+            <td></td>
+       </tfoot>
+
+    </table>
+
 </body>
+
 </html>
