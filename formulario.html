@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/alumnos" method="post">
+        <label for="nombre">NOMBRE:</label>
+        <!--etiqueta hace referencia a que corresponde ese cuadro de texto / for nos sirve como identificador para el cuadro-->
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
+        <!--nos sirve para crear el cuadro/ id es el identifiacion para el label / name nos sirve para identicar en servidor/ para que aparesca en el cuadro que se refiere el cuadro-->
+        <br>
+        <br>
+        <label for="apellido">APELLIDO</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Apellido" />
+        <BR>
+        <label for="comentario">comentario</label>
+
+        <br>
+
+        <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="ingrese comentario"></textarea>
+            <br>
+            <input type="submit"/>
+
+
+
+    </form>
+</body>
+
+</html>
